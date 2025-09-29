@@ -51,16 +51,3 @@ This approach demonstrates how **localized causal reasoning** can address limita
 
 ---
 
-## 🛠️ Setup (Prototype Code)  
-The reference implementation uses:  
-- Python 3.10+  
-- [EconML](https://github.com/microsoft/EconML) for causal effect estimation  
-- [FAISS](https://github.com/facebookresearch/faiss) for nearest-neighbor retrieval  
-- [OpenAI / Anthropic LLM APIs](https://platform.openai.com/) for LLM reasoning  
-
-```bash
-# Install requirements
-pip install -r requirements.txt
-
-# Run recommender pipeline
-python recommender.py --config config.yaml
